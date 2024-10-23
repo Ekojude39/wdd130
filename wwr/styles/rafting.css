@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --background-color: #F8F9FA; 
+    --text-color: #333; 
+    --heading-color: #343A40;
+    --link-color: #007BFF;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: var(--heading-color);
+    font-family: 'Georgia', serif;
+    margin: 1em 0;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 900;
+}
+
+p {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0.5em 0;
+    font-weight: 400;
+}
+
+a img {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a img {
+    text-decoration: none; /* Remove underline from image links */
+}
+
+.social-media a {
+    text-decoration: none; 
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
