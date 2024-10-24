@@ -13,6 +13,47 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hero {
+    position: relative;
+    overflow: hidden; 
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 3%; 
+    color: var(--heading-color);
+    font-family: 'Georgia', serif;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3em;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.hero article p {
+    margin:  5;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 1em;
+    width: 150px; 
+}
+
 h1, h2, h3, h4 {
     color: var(--heading-color);
     font-family: 'Georgia', serif;
@@ -42,21 +83,19 @@ p {
     font-weight: 400;
 }
 
-a img {
+a {
     color: var(--link-color);
     text-decoration: none;
 }
 
 a img {
-    text-decoration: none; /* Remove underline from image links */
+    text-decoration: none;
 }
 
 .social-media a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+strong {
+    font-weight: 700;
 }
