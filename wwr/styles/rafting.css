@@ -13,47 +13,111 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hero {
-    position: relative;
-    overflow: hidden; 
+header {
+    background-color: var(--background-color);
+    padding: 20px;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Layout: logo, title, navigation */
+    align-items: center;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 40%;
-    left: 3%; 
+.logo {
+    max-width: 100px; /* Adjust the logo size */
+}
+
+h1 {
     color: var(--heading-color);
-    font-family: 'Georgia', serif;
     font-weight: 700;
-    z-index: 2;
+    margin: 0;
 }
 
-.hero article {
-    position: absolute;
-    bottom: 15%;
-    left: 5%;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 3em;
-    border-radius: 8px;
-    z-index: 2;
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.hero article p {
-    margin:  5;
+nav ul li {
+    margin: 0 15px; /* Space between links */
 }
 
-.hero article img {
-    float: right;
-    margin-left: 1em;
-    width: 150px; 
+nav ul li a {
+    color: var(--link-color);
+    font-weight: 400;
+    text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.history {
+    padding: 20px;
+    background-color: #eaeaea; /* Background color for the history section */
+}
+
+.history h2 {
+    font-size: 2em;
+    color: var(--heading-color);
+}
+
+.adventures {
+    padding: 20px;
+}
+
+.adventure-images {
+    display: flex;
+    justify-content: space-around; /* Space images evenly */
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+}
+
+figure {
+    margin: 10px;
+    text-align: center; /* Center captions under images */
+}
+
+figure img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    border-radius: 8px; /* Add rounded corners to images */
+}
+
+figcaption {
+    font-weight: 400; /* Normal weight for captions */
+    color: var(--text-color);
+}
+
+footer {
+    background-color: var(--primary-color); /* Dark background for footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    margin-left: 10px; /* Space between social icons */
+    max-width: 30px; /* Adjust icon size */
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* Additional global styles */
 h1, h2, h3, h4 {
     color: var(--heading-color);
     font-family: 'Georgia', serif;
@@ -94,8 +158,4 @@ a img {
 
 .social-media a {
     text-decoration: none;
-}
-
-strong {
-    font-weight: 700;
 }
