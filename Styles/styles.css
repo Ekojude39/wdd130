@@ -2,14 +2,17 @@ nav {
   background-color: darkblue;
   padding: 10px;
 }
+
 nav a {
   color: white;
   display: block;
   padding: 20px;
 }
+
 h1 {
- color: darkblue;
+  color: darkblue;
 }
+
 img {
   width: 150px;
   height: auto;
@@ -17,47 +20,102 @@ img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
+
 p {
   padding: 10px;
 }
+
 main {
   max-width: 840px;
 }
+
 aside {
   width: 20rem;
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   background-color: #eee;
   color: #333;
   text-align: center;
 }
+
 aside img {
   width: 200px;
   height: auto;
 }
+
 main img {
   width: 150px;
   height: auto;
 }
-p {padding: 0;}
+
+p {
+  padding: 0;
+}
+
 footer {
   margin-top: 15px;
   border-top: 10px solid #000;
   text-align: center;
 }
 
+/* New Styles for Contact Page */
 
+.contact-info {
+  background-color: #f9f9f9; /* Light background for contact info */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
 
+.contact-info address {
+  margin: 10px 0;
+}
 
+.employee-profiles {
+  margin-bottom: 20px;
+}
 
+.profile-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Responsive layout */
+}
 
+.profile-grid figure {
+  margin: 10px;
+  text-align: center;
+}
 
+.contact-form {
+  background-color: #f9f9f9; /* Light background for the form */
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
 
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
 
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Full width for inputs and textareas */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Rounded corners */
+}
 
+.contact-form button {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
 
-
-
-
-
+.contact-form button:hover {
+  background-color: #003366; /* Darker blue on hover */
+}

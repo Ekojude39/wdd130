@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RapidRush Adventures</title>
+    <meta name="description" content="Contact page of RapidRush Adventure water rafting site for inquiries and support">
+    <meta name="author" content="Jude Nkanu Eko">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <!-- Header section with grid layout -->
+    <header>
+        <img src="images/Logo.jpg" alt="RapidRush Adventures Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Contact Information section -->
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out with any questions or comments.</p>
+            <address>
+                <p><strong>Address:</strong> 123 Rapids St, Adventure City, AC 12345</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> <a href="mailto:info@rapidrushadventures.com">info@rapidrushadventures.com</a></p>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Employee Profiles section -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profile-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>John Doe, Adventure Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Jane Smith, Customer Support</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Mike Johnson, Operations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form section -->
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Your Message:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general" required> General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation"> Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website"> Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section with social media links and wireframe link -->
+    <footer>
+        <p>©2024 RapidRush Adventures 🌴 Jude Nkanu Eko 🌴</p>
+        <nav class="sociallinks">
+            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/1_Facebook_colored_svg_copy-64.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/X-64.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/instagram_icon-instagram_buttoninstegram-64.webp" alt="Instagram">
+            </a>
+        </nav>
+        <p><a href="contact_wireframe.png">View Wireframe Design</a></p>
+    </footer>
+</body>
+
+</html>
