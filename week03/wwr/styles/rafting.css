@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #0D1B2A;
+    --secondary-color: #415A77;
+    --accent-1-color: #778DA9;
+    --accent-2-color: #E0E1DD;
+} 
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    font-weight: bold;
+    color: #415A77;
+}
+
+header {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    max-width: 800p;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    bottom: 20px;
+    left: 42%;
+    right: 25%;
+}
+
+article {
+    position: absolute;
+    top: 20px;
+    bottom: 10%;
+    width: 1000px;
+    right: 10px;
+}
+
+.absolute img {
+    width: 300px;
+    float: right;
+}
+
+
