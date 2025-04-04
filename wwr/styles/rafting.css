@@ -73,7 +73,7 @@ nav {
     left: 20%;
     font-size: 3em;
     margin: 0 auto;
-    color: var(--accent-1-color);
+    color: var(--accent-2-color);
 }
 
 .hero article {
@@ -119,14 +119,14 @@ nav {
     left: 20%;
     font-size: 3em;
     margin: 0 auto;
-    color: var(--primary-color);
+    color: var(--accent-1-color);
 }
 
 .about-hero article {
     position: absolute;
     top: 30%;
     left: 8%;
-    background-color: rgba(0, 51, 17, 0.8);
+    background-color: var(--secondary-color);
     border-radius: 10px;
     padding: 12px;
     color: white;
